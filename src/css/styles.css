@@ -21,7 +21,7 @@ main {
 }
 
 .section{
-  padding: 70px 0;
+  padding: 70px 0 0 0;
 }
 
 .container {
@@ -91,6 +91,13 @@ main {
 .container .profile-data .info .data{
   padding: 40px;
   width: 50%;
+
+}
+
+.container .profile-data .info .data .relacionamentos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container .profile-data .info img{
@@ -109,19 +116,29 @@ main {
   font-size: 15px;  
   font-weight: 400;
   line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.container .profile-data .info .relacionamentos h2 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.container .profile-data .info span {
+  font-weight: 500;
 }
 
 /* REPOSITORIES */
 
 .container .profile-data .repositories h2{
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .container .profile-data .repositories ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-weight: 600;
 }
 
 .container .profile-data .repositories ul li a{
@@ -138,8 +155,34 @@ main {
   color: #fff
 }
 
+.container .profile-data .repositories ul .repositories-info {
+  background-color: #8a2be2;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 2px;
+  padding: 6px 3px;
+}
+
 .container .profile-data.hide{
   display: none;
+}
+
+/* EVENTS */
+
+.container .profile-data .events .event-list{
+  display: flex;
+}
+
+.container .profile-data .events h2{
+  margin-bottom: 30px;
+}
+
+.container .profile-data .events ul li {
+  margin-bottom: 10px;
+}
+
+.container .profile-data .events ul li span{
+  font-weight: 600;
 }
 
 @media (max-width: 1280px) {
@@ -164,6 +207,10 @@ main {
   .container header #btn-search
   {
     width: 100%;
+  }
+
+  .container .profile-data .info .data .relacionamentos {
+    flex-direction: column;
   }
 }
 
