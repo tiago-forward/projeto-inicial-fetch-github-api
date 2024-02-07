@@ -14,9 +14,11 @@
 
 ### Esse projeto foi bifurcado do "Projeto Inicial Fetch GitHub API" do curso DevQuest - Dev em Dobro.
 
-#### 1 - Commit está associado a resolução deste projeto acompanhando as aulas do curso com o intuito de nos apresentarmos como funciona a API do GitHub, exibindo apenas imagem, nome completo, login e a bio do usuário.<br>
+#### 1º - Commit está associado a resolução deste projeto acompanhando as aulas do curso com o intuito de nos apresentarmos como funciona a API do GitHub, exibindo apenas imagem, nome completo, login e a bio do usuário.<br>
 
-#### 2 - Commit é a minha resolução do desafio do curso dando continuidade no projeto, e tentando realizar as três missões solicitadas. 
+#### 2º - Commit é a minha resolução do desafio do curso dando continuidade no projeto, e tentando realizar as três missões solicitadas. 
+
+#### 3º - Commit é a refatoração após ser conferido e analisado pela monitoria do curso.
 
 ## Desafio
 
